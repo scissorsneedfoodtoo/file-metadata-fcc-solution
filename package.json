@@ -1,7 +1,7 @@
 {
  "name": "file-metadata",
  "version": "1.0.0",
- "description": "APIs and Microservices File Metadata Solution",
+ "description": "APIs and Microservices 5: File Metadata Microservice",
  "main": "server.js",
  "scripts": {
   "start": "nodemon server.js",
@@ -10,15 +10,11 @@
  "dependencies": {
   "chai": "^4.2.0",
   "chai-http": "^4.3.0",
-  "cors": "^2.8.5",
   "dotenv": "^8.2.0",
   "express": "^4.17.1",
   "mocha": "^6.2.2",
   "multer": "^1.4.2",
   "nodemon": "^2.0.2"
- },
- "nodemonConfig": {
-  "delay": "2500"
  },
  "license": "MIT"
 }

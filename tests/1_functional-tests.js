@@ -1,9 +1,8 @@
 /*
+*       
+*       To run the tests, open the terminal with [Ctrl + `] (backtick)
+*       and run the command `npm run test`
 *
-*
-*       FILL IN EACH FUNCTIONAL TEST BELOW COMPLETELY
-*       -----[Keep the tests in the same order!]-----
-*       (if additional are added, keep them at the very end!)
 */
 
 const chaiHttp = require('chai-http');
@@ -15,7 +14,7 @@ chai.use(chaiHttp);
 
 suite('Functional Tests', function () {
     
-  suite('File upload -> file JSON response', function () {
+  suite('File upload => file JSON response', function () {
     
     test('Returns the expected file metadata as a JSON response', function (done) {
 
